@@ -1,0 +1,79 @@
+body{
+    background-color: lightblue;
+}
+
+.heading{
+   
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    margin: auto;
+   margin-left: -3rem;
+   margin-right: -3rem;
+    margin-top: -2rem;   
+    font-size: 20px;   
+    
+}
+
+img{
+    height: 30rem;
+    width: 40rem;
+    margin-left: -1rem;
+}
+.para{
+    font-size: larger;
+    font-weight: 900;
+    font-style: normal;
+    text-align: left;
+    margin-left: 3rem;
+    padding-left: 40rem;
+    margin-top: -26rem;
+     display: flex;
+
+    
+}
+
+.btn{ 
+    justify-content: center;
+    text-align: left;
+    padding-left: 40rem;
+    margin-top: 2rem;
+    display: flex;
+    border: none;
+    
+    
+
+}
+button {
+  
+    text-decoration: none;
+    background-color: green;
+    border: none;
+    border-radius: 2rem ;
+    height: 30px;
+    width: 20rem;
+    
+}
+button a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn :hover{
+
+    background-color:blue;
+}
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+    .para{
+        padding: 4rem;
+        padding-top: rem;
+        margin: left;
+    }
+
+}
