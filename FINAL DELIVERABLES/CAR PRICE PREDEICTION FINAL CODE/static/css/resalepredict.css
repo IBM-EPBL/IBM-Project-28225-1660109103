@@ -1,0 +1,66 @@
+button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-top: 2em;
+    cursor: pointer;
+    background-color:blue;
+    padding: 0.6rem 3rem;
+}
+
+body {
+    padding: 1em;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-image: url('/static/image/bacroundimg.jpg');
+    background-size: cover;
+}
+
+
+.row h4{
+    color:aliceblue;
+    text-align: left;
+    margin-left: 400px;
+    font-weight: 00;
+}
+input{
+    margin: 1rem 8rem;
+    text-align: center;
+    padding: 0rem 1.2rem ;
+}
+select{
+    text-align: center;
+    margin: 1rem 8.4rem;
+    padding: 0rem 3.7rem;
+}
+
+.gear{
+    text-align: center;
+}
+
+.gear input{
+ margin: 0rem 0rem;
+}
+.damage input{
+    margin: 0rem 0rem;
+}
+.brand select{
+    padding: 0rem 3rem;
+    text-align: center;
+}
+
+
+.model select{
+    padding: 0rem 2.2rem;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
